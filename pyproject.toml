@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=76.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etag_generator"
+version = "0.1.0"
+authors = [
+  { name="Paul Williams", email="paul_williams@epam.com" },
+]
+description = "Given a JSON object (python dict), generate a stable value suitable as an ETag"
+readme = "README.md"
+license = { file='LICENSE' }
+requires-python = ">=3.8"
+classifiers = [
+		'Development Status :: 1 - Planning',
+		'Environment :: Web Environment',
+		'Intended Audience :: Developers',
+		'License :: OSI Approved :: Apache Software License',
+		'Natural Language :: English',
+		'Operating System :: OS Independent',
+		'Programming Language :: Python :: 3 :: Only',
+		'Topic :: Internet :: WWW/HTTP',
+		'Topic :: Utilities'
+]
+
+[project.urls]
+Homepage = "https://github.com/paulprogrammer/py-json-etag-generator"
+Issues = "https://github.com/paulprogrammer/py-json-etag-generator/issues"
