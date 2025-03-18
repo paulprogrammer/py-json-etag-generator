@@ -17,7 +17,7 @@ logging.addLevelName(TRACE,'TRACE')
 
 logger = logging.getLogger(__name__)
 
-__version__ = "0.1.1"
+__version__ = "0.9.0"
 __author__  = 'Paul Williams'
 __credits__ = 'EPAM Systems'
 
